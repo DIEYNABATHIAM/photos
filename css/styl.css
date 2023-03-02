@@ -16,7 +16,7 @@
   flex-direction: column;
 justify-content: center;
 padding-left: 60px;
-left: 150px;
+right: 160px;
 
 }
 
@@ -24,6 +24,8 @@ left: 150px;
 position: relative;
 top: -160px;
 padding-left: 15px;
+
+
         }
         .button{
           position: relative;
@@ -38,15 +40,17 @@ padding-left: 15px;
             top: -170px;
             margin-top: 1rem;
             padding-left: 15px;
+           
         }
   @media screen and (max-width: 375px){
+    .back {
+      height: 400vh;
+}
+
     .button{
       margin-left: -250vh;
     }
-    .back {
-     
-           width: 400px;
-    }
+   
     .button{
       left: 300px;
     }
@@ -55,3 +59,9 @@ padding-left: 15px;
   align-items: center;
 }
   }
+  @media screen and (max-width: 550px){
+    .back {
+      height: 195vh;
+}
+  }
+ 
